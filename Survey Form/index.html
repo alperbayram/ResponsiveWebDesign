@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="home">
+            <header>
+                <h1 id="id=">freeCodeCamp Survey Form
+                </h1>
+                <p id="description">Bu kursa sayılı kişiler seçilecekti.</p>
+            </header>
+            <section>
+                <form action="" id="survey-form">
+                    <div id="form-group">
+                        <label for=" " id="name-label"> İsim</label>
+                        <input type="text">
+                    </div>
+                    <div id="form-group">
+                        <label for=" " id="email-label">Eposta</label>
+                        <input type="text">
+                    </div>
+                    <div id="form-group">
+                        <label for=" " id="number-label" min="5" max="35">Yaş</label>
+                        <input type="text" placeholder="yaşınnız">
+                    </div>
+                    <div id="form-group">
+                        <label for=" " id="name-label">Cinsiyetiniz Nedir ?</label>
+                        <select for=" " id="dropdown" required>
+                            <option disabled="" selected="" value="">Seçiniz</option>
+                            <option value="student">Erkek</option>
+                            <option value="student">Kadın</option>
+                            <option value="student">Diğer</option>
+
+                           </select>
+                    </div>
+                    <div class="form-radio">
+                        <p>Arkadaşına önerir misin ?</p>
+                        <label>
+          <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">evet</label>
+                        <label>
+          <input name="user-recommend" value="maybe" type="radio" class="input-radio">olabilir</label>
+
+                        <label>
+                            <input name="user-recommend" value="not-sure" type="radio" class="input-radio">hayır</label>
+                    </div>
+                    <div class="form-group">
+                        <p>yorum veya öneriniz var mı?</p>
+                        <textarea id="comments" class="input-textarea" name="comment" placeholder="....."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 5px;
+    text-decoration: green wavy underline;
+}
+
+p {
+    font-size: 26px;
+    padding: 35px;
+}
+
+figure {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 10px 25px #888888;
+}
+
+figcaption {
+    padding: 5px;
+}
+
+section {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    text-align: justify;
+}
+
+div {
+    margin: 35px;
+}

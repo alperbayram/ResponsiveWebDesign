@@ -1,0 +1,68 @@
+                    body {
+                        background-image: url('https://bebs.org/wp-content/uploads/2019/05/form-background-1024x683.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 100%;
+                    }
+                    
+                    main {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    header {
+                        text-align: center;
+                    }
+                    
+                    section {
+                        border-radius: 0.25rem;
+                        background-color: orange;
+                        height: auto;
+                        width: 100%;
+                    }
+                    
+                    form {
+                        margin: 10px;
+                        height: auto;
+                    }
+                    
+                    #form-group {
+                        margin: 15px;
+                        padding: 13px;
+                    }
+                    
+                    label {
+                        display: flex;
+                        font-size: 1.25em;
+                        padding: 5px;
+                        margin: 5px;
+                    }
+                    
+                    input {
+                        height: 20px;
+                        border-radius: 5%;
+                    }
+                    
+                    select {
+                        height: 20px;
+                        width: 100%;
+                        align-items: center;
+                    }
+                    
+                    textarea {
+                        height: 100px;
+                        width: 100%;
+                    }
+                    
+                    p {
+                        font-size: 1.25em;
+                        align-items: center;
+                    }
+                    
+                    .submit-button {
+                        padding: 0.75rem;
+                        margin: 5px;
+                        background: green;
+                        color: inherit;
+                        border-radius: 2px;
+                    }
