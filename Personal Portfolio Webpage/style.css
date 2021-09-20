@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(250, 193, 70);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+nav a {
+    margin: 15px;
+    padding: 15px;
+    left: 0;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 100px;
+}
+
+main p {
+    font-size: 50px;
+}
+
+#work {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(250, 193, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+
+.contact-social {
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact a {
+    font-size: 24px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+#work h2 {
+    font-size: 48px;
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
+.projects-grid img {
+    min-width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(250, 193, 70);
+    height: 100px;
+}
+
+footer p {
+    margin: 0;
+    font-size: large;
+    color: gray;
+}
