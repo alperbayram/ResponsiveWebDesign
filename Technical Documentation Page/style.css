@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    text-decoration: none;
+    border: 2px solid orange;
+    border-bottom: 0;
+    left: 0;
+    bottom: 0;
+}
+
+header {
+    margin: 10px;
+    font-size: 1.8em;
+    text-align: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    border: 1px solid orange;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 30px;
+}
+
+nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+main {}
+
+#main-doc {
+    margin-left: 300px;
+    padding: 20px;
+    margin-bottom: 110px;
+    text-align: justify;
+    position: initial;
+}
+
+code pre {
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-radius: 10px;
+}
