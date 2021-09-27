@@ -1,0 +1,13 @@
+.container p {
+    text-align: justify;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    padding-top: 10px;
+}
