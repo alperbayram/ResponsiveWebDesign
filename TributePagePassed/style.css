@@ -4,7 +4,6 @@ body {
 }
 
 main {
-    background-color: antiquewhite;
     border-radius: 25px;
     text-align: center;
 }
@@ -16,12 +15,10 @@ h2 {
 }
 
 p {
-    font-size: 26px;
-    padding: 35px;
+    font-size: 16px;
 }
 
 figure {
-    background-color: antiquewhite;
     border-radius: 25px;
     text-align: center;
     margin: 10px;
@@ -38,7 +35,6 @@ figcaption {
 }
 
 section {
-    background-color: antiquewhite;
     border-radius: 25px;
     text-align: justify;
 }
