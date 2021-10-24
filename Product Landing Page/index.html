@@ -1,85 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="https://img.icons8.com/ios-filled/60/000000/codepen.png" alt="alperbayram" id="header-img">
-        <nav id="nav-bar">
-            <a href="#" class="nav-link">Features</a>
-            <a href="#" class="nav-link">How It Works</a>
-            <a href="#" class="nav-link">Pricing</a>
-        </nav>
+      <h1 href="" style="color: #1DB954;">Play List</h1>
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
     </header>
 
-    <main>
-        <form action="">
-            <h2>Handcrafted, home-made masterpieces</h2>
-            <input type="email" id="email" placeholder=" email">
-        </form>
-        <button id="submit"> GET STARTED</button>
-
-    </main>
     <div class="container">
-        <section id="features">
+      <section id="hero">
+        <form id="form" action="#">
+          <h2>Handcrafted, home-made masterpieces</h2>
+          <input
+            type="email"
+            id="email"
+            placeholder="email"
+            name="email"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+  
 
+
+        <section id="features">
             <div class="grid">
-                <div class="container-item">
-                    <img src="https://img.icons8.com/nolan/96/a.png">
-                    <div class="container-text">
-                        <h2>Premium Materials</h2>
-                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-                    </div>
+                <div class="icon"><i class="fab fa-spotify fa-3x"></i></i></div>
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia neque ea rerum aperiam architecto temporibus est adipisci, cupiditate recusandae? Blanditiis dolor praesentium nulla eum ipsam minima explicabo, quae perspiciatis enim?
+                    </p>
                 </div>
-                <div class="container-item">
-                    <img src="https://img.icons8.com/fluency/96/000000/woman-on-a-horse.png">
-                    <div class="container-text">
-                        <h2>Fast Shipping</h2>
-                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-                    </div>
-                </div>
-                <div class="container-item">
-                    <img src="https://img.icons8.com/color/96/000000/man_reading_a_book.png" alt="">
-                    <div class="container-text">
-                        <h2>Quality Assurance</h2>
-                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-                    </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fab fa-napster fa-3x"></i></div>
+                <div class="desc">
+                    <h2>Fast Shipping</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam ducimus aliquid earum maiores laboriosam molestiae nemo inventore nobis cupiditate nesciunt, unde, laudantium tenetur assumenda totam ea eaque dolores explicabo!
+                </p></div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fab fa-soundcloud fa-3x"></i></div>
+                <div class="desc">
+                    <h2>Quality Assurance</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quibusdam ducimus aliquid earum maiores laboriosam molestiae nemo inventore nobis cupiditate nesciunt, unde, laudantium tenetur assumenda totam ea eaque dolores explicabo!
+                    </p>
                 </div>
             </div>
         </section>
+
+        <section id="how-it-works">
+            <iframe src="https://open.spotify.com/embed/track/3ZwdGIaaoVTm3QkzxLBtWO?theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </section>
+
+        <section id="pricing">
+            <div class="product" id="tenor">
+                <div class="level">List #1</div>
+                <h2>$600</h2>
+                <ol>
+                  <iframe src="https://open.spotify.com/embed/playlist/4BRJmLUmo69RESwpjOAZ6E?theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="tenor">
+              <div class="level">List #2</div>
+              <h2>$600</h2>
+              <ol>
+                <iframe src="https://open.spotify.com/embed/playlist/0HYmGkQX3BIZVyF8oVGzK1" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+              </ol>
+              <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="tenor">
+              <div class="level">List #3</div>
+              <h2>$600</h2>
+              <ol>
+                <iframe src="https://open.spotify.com/embed/playlist/2CV7ZQW5L9K5OHaEH86xcN" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+              </ol>
+              <button class="btn">Select</button>
+            </div>
+            
+        </section>
+        <footer>
+          <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <span>Copyright 2021, Original Play</span>
+        </footer>
     </div>
 
-    <section id="howitworks">
-        <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wTxFxk2dwaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
 
 
-    <section id="pricing">
-        <figure>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </figure>
-    </section>
 
-
-    <footer>
-        <div id="footer">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Contact</a>
-        </div>
-        <p>Copyright 2016, Original Trombones</p>
-    </footer>
-</body>
-
+  </body>
 </html>
